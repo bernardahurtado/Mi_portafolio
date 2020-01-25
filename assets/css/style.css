@@ -20,12 +20,13 @@ h3 {
 
 /*Navbar*/
 .n-f-color {
-  background-color: #002a32;
+  background-color: #00303a;
   font-size: 400;
 }
 
 .nav-txt{
   font-family: 'Architects Daughter', cursive;
+  text-align: justify;
 }
 
 /*Sobre mi*/
