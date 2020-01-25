@@ -18,6 +18,10 @@ h3 {
   font-size: 40px;
 }
 
+p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 400;
+}
 /*Navbar*/
 .n-f-color {
   background-color: #00303a;
@@ -66,19 +70,70 @@ h3 {
 }
 
 /*mi experiencia*/
+.mi-experiencia{
+height: 400px;
+}
 
+.i-color {
+  color: #148775;
+  font-size: 70px;
+}
+
+.m-exp {
+  padding-top: 50px;
+}
+
+.exp-font {
+  font-size: 25px;
+}
 
 /*últimos trabajos*/
+.margin-card {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 53px;
+  padding-bottom: 107px;
+  background-color: #148775;
+}
 
+.ut-color {
+  color: #fefefe;
+  margin-bottom: 15px;
+}
 
 /*Contacto*/
+.contacto {
+  height: 500px;
+  text-align: center;
+  padding-top: 80px;
+}
 
+.p-contacto {
+  padding-top: 55px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 400;
+  font-size: 25px;
+}
 
-
+.button-m {
+  margin-top: 30px;
+  background-color: #148775;
+  border-color: #00303a;
+  font-family: 'Architects Daughter', cursive;
+}
 /*Footer*/
 .footer {
   color: #fefefe;
   height: 218px;
   padding-left: 284px;
   padding-top: 82px;
+}
+
+.f-al {
+  display: inline-block;
+}
+
+.icons {
+  font-size: 40px;
+  padding-left: 400px;
 }
