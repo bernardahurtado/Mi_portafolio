@@ -2,16 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="Portafolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portafolio, bernardahurtado">
+    <meta name="author" content="Bernarda Hurtado">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
-    <!-- Bootstrap 4.4.1 CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Bootstrap 4.5.0 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@400;600&display=swap" rel="stylesheet"> 
     <!--Google Fonts logo- Zhi mang xing-->
     <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
-    <!--Google Fonts Cedarvile cursive-->
-    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
-    <!--Google Fonts Architects Daughter-->
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
     <!--Font Awesome 5.6.3 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!--Mi estilo-->
@@ -34,10 +35,10 @@
               <a class="nav-link nav-txt" href="#about">Sobre mí</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-txt" href="#experiencia">Experiencia</a>
+              <a class="nav-link nav-txt" href="#conocimientos">Conocimientos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-txt" href="#trabajos">Trabajos</a>
+              <a class="nav-link nav-txt" href="#portafolio">Portafolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-txt" href="#contacto">Contacto</a>
@@ -53,17 +54,19 @@
 <section id="about" class="img-sobre-mi">
   <section class="margin-sm">
     <img class="rounded-circle img-me"  src="assets/img/yo.jpg" alt="mi-foto">
-    <h1 class="font-sm">YO SOY</h1>
+    <h1 class="font-sm">Desarrolladora Front End</h1>
     <hr class="hr">
-    <h1 class="f-size">Bernarda</h1>
+    <h1 class="f-size">Bernarda Hurtado</h1>
 
   </section>
 </section>
 
 <!--Descripción-->
 <section class="container description">
-  <h4 class="font-weight-bold txt">Soy una persona curiosa y aventurera, que ama los nuevos desafíos y me apasiona el constante cambio, al fin y al cabo es la base de la superación.
-  </h4>
+  <h5 class="font-weight-bold txt">Soy una persona creativa, comprometida, organizada, me gusta estar
+    aprendiendo constantemente, solucionar problemas y ver más allá de lo
+    convencional. Buscando nuevos desafíos decidí dar un giro en mi vida
+    profesional y me sumergí en el mundo del desarrollo web.</h5>
   <hr class="hr-2">
   <div class="row desc-m">
     <div class="col-xl-6 nav-txt">El aprender haciendo es mi filosofía de vida, considero que el aprendizaje basados en la experimentación genera conocimientos profundos y enriquecedores, estimulando la creatividad e innovación. Tengo la determinación para trabajar lo que haga falta para lograr mis objetivos y tener la valentía de seguir adelante a pesar de los tropiezos, para mantenerme fiel a mis principios y seguir dando los pasos necesarios lograrlo.
@@ -74,58 +77,94 @@
     </div>
 </section>
 
-<!--Mi experiencia-->
-<section id="experiencia" class="mi-experiencia">
-    <h2 class="font-weight-bold m-exp">MI EXPERIENCIA</h2>
-    <hr class="hr-3">
-    <section class="m-e-align">
-      <div class="container">
-        <div class="row al-center">
-
-          <div class="col-sm">
-            <i class="fas fa-pencil-ruler i-color"></i>
-            <p class="exp-font font-weight-bold">Dibujante Proyectista</p>
+<!--Mis conocimientos-->
+<section id="conocimientos" class="mc-color">
+  <h2 class="font-weight-bold pt-5 text-white">Mis conocimientos</h2>
+  <hr class="hr-3">
+  <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active carousel-icons  text-white icons-group">
+        <div class=" row">
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-2"> 
+            <h4 >Lenguajes</h4>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js-square"></i>
           </div>
-
-          <div class="col-sm">
-            <i class="fas fa-seedling i-color"></i>
-            <p class="exp-font font-weight-bold">Paisajista</p>
+          <div class="col-lg-6 col-md-6 col-sm-12 carousel-icons mt-2 text-white">
+            <h4>Framework - librerias - Preprocesadores</h4>
+            <i class="fab fa-bootstrap"></i>
+            <i class="fab fa-sass"></i>
+            <i class="fab fa-vuejs"></i>
           </div>
-
-          <div class="col-sm">
-            <i class="fas fa-laptop-code i-color"></i>
-            <p class="exp-font font-weight-bold">Desarrolladora Front-end</p>
+        </div>                
+       
+      </div>     
+      <div class="carousel-item carousel-icons  text-white icons-group">
+        <div class="row">
+          <div class="ccol-lg-6 col-md-6 col-sm-12 mt-2">
+            <h4>Diseño responsivo</h4>
+            <div class=" icons-group">               
+              <i class="fas fa-laptop-code"></i>
+            </div>
           </div>
-        </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
+            <h4>Control de versiones Git</h4>
+            <div class=" icons-group"> 
+              <i class="fab fa-git"></i>             
+            </div>
+          </div>
+        </div>        
       </div>
-    </section>
+    </div>
+    <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </section>
 
-<!--últimos trabajos-->
-<section id="trabajos" class="margin-card">
-  <h2 class="font-weight-bold ut-color">MIS ÚLTIMOS TRABAJOS</h2>
+
+
+<!--Portafolio - últimos trabajos-->
+<section id="portafolio" class="margin-card">
+  <h2 class="font-weight-bold ut-color">Portafolio</h2>
   <hr class="hr-4">
   <section>
     <div class="card-deck car-m-m">
 <div class="card">
-  <img src="assets/img/meet-and-coffe.jpg" class="card-img-top" alt="meet-and-coffe">
+  <img src="assets/img/vegan-check.png" class="card-img-top portafiolio-img" alt="vegan check">
   <div class="card-body">
-    <h5 class="card-title">Meet&Coffe</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <h5 class="card-title">Vegan Check</h5>
+    <p class="card-text">Aplicación web dinámica para saber si los ingredientes seleccionados son veganos.</p>
+    <a class="btn btn-info " href="https://vegancheck-b5606.firebaseapp.com/" target="_blank" role="button">Ver</a>
+    
   </div>
 </div>
 <div class="card">
-  <img src="assets/img/iguana-page.jpg" class="card-img-top" alt="iguana-page">
+  <img src="assets/img/gigeo-app.png" class="card-img-top portafiolio-img" alt="Gigeo app">
   <div class="card-body">
-    <h5 class="card-title">Iguana Page</h5>
-    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    <h5 class="card-title">Gigeo App</h5>
+    <p class="card-text">Página web estática de viajes.</p>
+    <p>Hecha con HTML-CSS-SASS Bootstrap</p>
+    <a class="btn btn-info " href="https://bernardahurtado.github.io/GIGEO_app/" target="_blank" role="button">Ver</a>
   </div>
 </div>
 <div class="card">
-  <img src="assets/img/suricata.jpg" class="card-img-top" alt="suricata">
+  <img src="assets/img/barber-blog.png" class="card-img-top portafiolio-img" alt="Barber Blog">
   <div class="card-body">
-    <h5 class="card-title">Suricata</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    <h5 class="card-title">Barber Blog</h5>
+    <p class="card-text">Página web estática de un blog de barbería.</p>
+    <a class="btn btn-info " href="https://bernardahurtado.github.io/Blog-Barbershop/" target="_blank" role="button">Ver</a>
   </div>
 </div>
 </div>
@@ -134,24 +173,27 @@
   <section class="m3-card">
     <div class="card-deck car-m-m">
 <div class="card">
-  <img src="assets/img/cuppon.jpg" class="card-img-top" alt="cuppon">
+  <img src="assets/img/revista-online.png" class="card-img-top portafiolio-img" alt="Revista Online">
   <div class="card-body">
-    <h5 class="card-title">Cuppon</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <h5 class="card-title">Revista online</h5>
+    <p class="card-text">Página en HTML - CSS - Bootstrap.</p>
+    <a class="btn btn-info " href="https://bernardahurtado.github.io/Revista_online/" target="_blank" role="button">Ver</a>
   </div>
 </div>
 <div class="card">
-  <img src="assets/img/ricomida.jpg" class="card-img-top" alt="ricomida">
+  <img src="assets/img/startup-treek-in.png" class="card-img-top portafiolio-img" alt="Startup Trek-in">
   <div class="card-body">
-    <h5 class="card-title">Ricomida</h5>
-    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    <h5 class="card-title">Startup Trek-in</h5>
+    <p class="card-text">Página de trekking con HTML y CSS - SASS - Bootstrap.</p>
+    <a class="btn btn-info " href="https://bernardahurtado.github.io/Startup_Treek-in/" target="_blank" role="button">Ver</a>
   </div>
 </div>
 <div class="card">
-  <img src="assets/img/olivia-ros.jpg" class="card-img-top" alt="olivia-ros">
+  <img src="assets/img/busquemos-trabajo.png" class="card-img-top portafiolio-img" alt="Busquemos Trabajo">
   <div class="card-body">
-    <h5 class="card-title">Olivia Ros</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    <h5 class="card-title">Busquemos Trabajo</h5>
+    <p class="card-text">Página de búsqueda de empleo con la API github jobs.</p>
+    <a class="btn btn-info " href="https://bernardahurtado.github.io/Busquemos_trabajo/" target="_blank" role="button">Ver</a>
     </div>
   </div>
 </div>
@@ -162,9 +204,9 @@
 <section id="contacto" class="contacto">
   <h2 class="font-weight-bold">CONTACTO</h2>
   <hr class="hr-3">
-  <p class="p-contacto">¿Quieres saber más sobre mi?</p>
+  <p class="p-contacto">Te ayudo a diseñar y desarrollar tu página web ideal</p>
   <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScDpKikjNBa_j6VY_X__5LMTZOcySQnTIei6gvzna3lQFn-7A/viewform?usp=sf_link">
-    <button type="button" class="btn btn-dark btn btn-secondary button-m" data-toggle="tooltip" data-placement="bottom" title="Enviar por correo">Comenzar</button>
+    <button type="button" class="btn btn-dark btn btn-secondary button-m" data-toggle="tooltip" data-placement="bottom" title="Enviar por correo">Contactar</button>
   </a>
 </section>
 
@@ -178,7 +220,7 @@
      <a class="color-a" href="https://github.com/bernardahurtado" target="_blank"><i class="fab fa-github-square"></i></a>
      <a class="color-a" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
      <a class="color-a" href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
-     <a class="color-a" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+     
     </div>
     </section>
   </section>
